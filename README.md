@@ -1,11 +1,7 @@
-### Webnotes site
+## *Webnotes site*
 
-##### This will be a personal project that I want to do. Here I will be 
-##### adding a lot of experimental features that I may be using on more
-##### official projects
+This will be a multi-paged website showcasing a fake product of software that
+will allow you to write notes and the software can automate where that note goes in a pre-made folder for orginizing. 
 
-	It will be one page,
-	this will be like falling down a well and the content will change over time (scrolling),
-	Transparency header and/or footer,
-	and others.
- 
+It will be a free fake product for students or anyone else
+
