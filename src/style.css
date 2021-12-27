@@ -77,6 +77,18 @@ button:active {
 
 /*      Body        */
 
+/*  This key frame is for all of the blocks or objects with writing on it   */
+@keyframes opacityobj {
+    from {
+        color: rgba(0, 0, 0, 0);
+        background-color: #cddeff00;
+    }
+    to {
+        color: black;
+        background-color: #CDDEFF;
+    }
+}
+
 /*--------------Grettings---------------*/
 .greetings {
     margin: 5rem auto 15rem auto;
@@ -85,7 +97,7 @@ button:active {
     text-align: center;
     max-width: 70%;
     animation-name: opacityFunc;
-    animation-duration: 3s;
+    animation-duration: 3.5s;
 }
 /*-------Introduction to Product--------*/
 .productinfo {
@@ -94,8 +106,9 @@ button:active {
     font-family: 'Rokkitt', serif;
     font-size: 40px;
     border-radius: 1rem;
-    animation-name: opacityFunc;
-    animation-duration: 2s; 
+    animation-name: opacityobj;
+    animation-duration: 3s;
+    animation-delay: 1s;
     padding: 2rem;
     margin: 15rem auto 15rem auto;
     /*  top left bottom right   */
