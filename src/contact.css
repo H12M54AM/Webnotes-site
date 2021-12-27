@@ -12,31 +12,53 @@ body {
 /*      Navigation     */
 
 .navigation-background {
-    background-color: #CDDEFF;
-    padding: 1.5rem;
+    padding: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
 }
 ul, button, .greetings {
     font-family: 'Rokkitt', serif;
     font-weight: 400;
 }
-
 ul, li, button {
     font-size: 40px;
 }
 li, ul {
     list-style: none;
     display: inline-block;
-    text-decoration: none;
-    margin-right: 10px;    
+    margin-right: 10px;
+    margin-left: 5px;
+}
+/*  For Greetings   */
+@keyframes opacityFunc {
+    from {
+        color: rgba(0, 0, 0, 0);
+    }
+    to {
+        color: black;
+    }
+}
+/*  Nav Button  */
+@keyframes Bhovering {
+    from {
+        background-color: #FF5959;
+    }
+    to {
+        background-color: #ff59596a;
+    }
 }
 button {
     background-color: #FF5959;
     border: none;
-    padding: 10px;
+    border-radius: 15px;
+    margin-right: 10px;
+    padding: 5px 15px 5px 15px;
+    /*  top left bottom right   */
 }
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+button:hover {
+    background-color: #ff59596a;
+    animation-name: Bhovering;
+    animation-duration: 1s;
 }
