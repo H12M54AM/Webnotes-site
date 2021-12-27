@@ -88,7 +88,6 @@ button:active {
         background-color: #CDDEFF;
     }
 }
-
 /*--------------Grettings---------------*/
 .greetings {
     margin: 5rem auto 15rem auto;
@@ -98,6 +97,8 @@ button:active {
     max-width: 70%;
     animation-name: opacityFunc;
     animation-duration: 3.5s;
+    letter-spacing: 0.25em;
+    line-height: 145.19%;
 }
 /*-------Introduction to Product--------*/
 .productinfo {
@@ -143,7 +144,6 @@ button:active {
 footer {
     background-color: #CDDEFF;
 }
-
 .cpy {
     font-family: 'Rokkitt', serif;
     margin: auto;
