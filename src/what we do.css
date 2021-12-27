@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #EEF2FF;
+}
+
+/*      Navigation     */
+
+.navigation-background {
+    background-color: #CDDEFF;
+    padding: 1.5rem;
+}
+ul, button, .greetings {
+    font-family: 'Rokkitt', serif;
+    font-weight: 400;
+}
+
+ul, li, button {
+    font-size: 40px;
+}
+li, ul {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;    
+}
+button {
+    background-color: #FF5959;
+    border: none;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
