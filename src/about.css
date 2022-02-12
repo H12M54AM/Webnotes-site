@@ -23,13 +23,19 @@ ul, button, .greetings {
     font-weight: 400;
 }
 ul, li, button {
+    display: inline-block;
     font-size: 40px;
 }
-li, ul {
+.navigation li ul a{
     list-style: none;
-    display: inline-block;
-    margin-right: 10px;
-    margin-left: 5px;
+}
+
+a {
+    margin-right: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #676FA3;
+    
 }
 /*  For Greetings   */
 @keyframes opacityFunc {
